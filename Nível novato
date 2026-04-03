@@ -4,7 +4,7 @@ int main() {
 
     int populacao, numerodepontosturistico;
     float area, pib;
-    char nome, estado, codigocarta[30];
+    char nome[30];
 
     printf("carta 1\n");
 
@@ -57,8 +57,3 @@ int main() {
 
 
 }
-
-
-
-
-    
