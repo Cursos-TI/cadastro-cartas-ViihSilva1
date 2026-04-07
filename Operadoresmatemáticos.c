@@ -31,6 +31,13 @@ int soma, subtracao, multiplicacao, divisao;
     divisao = numero1 / numero2;
 
 
+    printf("A soma é: %d\n", soma);
+    printf("A subtracao é: %d\n", subtracao);
+    printf("A multiplicacao é: %d\n", multiplicacao);
+    printf("A divisao é: %d\n", divisao);
+
+
+
 
 
 
