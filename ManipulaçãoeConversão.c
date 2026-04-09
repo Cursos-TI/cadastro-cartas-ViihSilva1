@@ -14,28 +14,34 @@ int main (){
     //printf("Quociente: %d\n", quociente);
 
 // Daqui para baixo é variáveis de ponto flutuante
-    float x = 5.5;
-    float y = 2.2;
-    float soma = x + y;
-    float diferenca = x - y;
-    float produto = x * y;
-    float quociente = x / y; // Divisão de ponto flutuante
+    //float x = 5.5;
+    //float y = 2.2;
+    //float soma = x + y;
+    //float diferenca = x - y;
+    //float produto = x * y;
+    //float quociente = x / y; // Divisão de ponto flutuante
 
-    printf("Soma: %.2f\n", soma);
-    printf("Diferenca: %.2f\n", diferenca);
-    printf("Produto: %.2f\n", produto);
+    //printf("Soma: %.2f\n", soma);
+    //printf("Diferenca: %.2f\n", diferenca);
+    //printf("Produto: %.2f\n", produto);
+    //printf("Quociente: %.2f\n", quociente);
+
+ //Daqui para baixo conversão implícita 
+    //int a = 10;
+    //float b = 3.5;
+    //float resultado = a + b; // 'a' é convertido implicitamente para float
+
+    //printf("Resultado: %.2f\n", resultado);
+
+// Daqui para baixo conversão explícita
+    int a = 10;
+    int b = 3;
+    float quociente = (float) a / b; // 'a' é explicitamente convertido para float
+
     printf("Quociente: %.2f\n", quociente);
 
-
-
-
-
-
-
-
-
-return 0;
-
+    
+return 0; 
 }
 
 
